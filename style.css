@@ -1,0 +1,166 @@
+:root {
+  --DarkBrown: hsl(0, 88%, 17%);
+  --LightBrown: hsl(0, 59%, 65%);
+  --LightYellow: hsl(38, 100%, 89%);
+  --White: hsl(0, 0%, 100%);
+  --BrownBG: #e4cab7;
+}
+body {
+  margin: 0px;
+  background-color: #e4cab7;
+}
+.navbar-brand{
+  font-size: 32px;
+}
+.container-fluid {
+ 
+  padding-top: 32px;
+  background-color: var(--White);
+}
+.nav-link{
+  color: var(--DarkBrown);
+  font-size: 20px;
+
+}
+.d-flex{
+  padding: 16px;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  padding-top: 96px;
+  background-image: url(images/Menu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.intro-content h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0px;
+}
+.intro-content h3 {
+  text-align: center;
+  margin: 0px;
+}
+.intro-content button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 100px;
+  border: none;
+}
+.intro-content button:hover {
+  color: var(--DarkBrown);
+  background-color: var(--LightYellow);
+}
+.images {
+  display: flex;
+  height: 230px;
+  gap: 50px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+.gallery {
+  border-radius: 8px;
+  background-color: var(--White);
+}
+.gallery img {
+  border-radius:  8px 8px 0  0;
+}
+.gallery p {
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+.gallery p:hover {
+  color: var(--DarkBrown);
+  transform: scale(1.1);
+}
+.menu {
+  padding: 32px;
+  text-align: center;
+  font-size: 34px;
+  color: var(--DarkBrown);
+}
+.sale {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Cozy\ Coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  gap: 150px;
+  height: 350px;
+  padding: 48px;
+}
+.sale img {
+  border-radius: 8px;
+  clip-path: circle(50%);
+}
+.sale-content {
+  font-size: 24px;
+}
+.sale-off {
+  background-color: var(--White);
+  padding: 4px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.sale p {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sale-content {
+  text-align: center;
+}
+button {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--DarkBrown);
+  color: white;
+}
+button:hover {
+  background-color: var(--White);
+  color: var(--DarkBrown);
+}
+.fedback-box {
+  display: inline-flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+.fedback-people {
+  width: 20%;
+  display: block;
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px;
+}
+.fedback-people img {
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.footer {
+  width: 100%;
+  background-color: var(--DarkBrown);
+  display: block;
+  text-align: center;
+  color: var(--White);
+  height: 200px;
+  padding: 24px;
+  font-size: 24px;
+  line-height: 50px;
+}

@@ -1,0 +1,17 @@
+/* Media queries for tablets */
+@media screen and (max-width: 768px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sale {
+    width: 50%;
+    flex-direction: column;
+
+  }
+  .fedback-box{
+    display: flex;
+    flex-direction: column;
+  }
+}
